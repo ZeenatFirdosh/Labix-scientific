@@ -1,0 +1,51 @@
+.btn1{
+    display: flex;
+height: 1.5rem;
+padding: 0rem 0.75rem;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+border-radius: 1.0625rem;
+background:  #EFF6FF;
+
+color:  #2563EB;
+
+/* text-xs/leading-4/font-medium */
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem; /* 133.333% */
+}
+
+.btn2{
+    display: flex;
+height: 1.5rem;
+padding: 0rem 0.75rem;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+
+border-radius: 1.0625rem;
+background:  #ECFDF5;
+
+color:  #10B981;
+
+/* text-xs/leading-4/font-medium */
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem; /* 133.333% */
+}
+
+.blog1{
+    background-image: url("/src/assets/xxx.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.blog2{
+    background-image: url("/src/assets/nurse.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}

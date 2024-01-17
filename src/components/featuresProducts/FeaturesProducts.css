@@ -1,0 +1,28 @@
+.card1{
+    border-radius: 0.5rem !important;
+    padding: 1rem 1.5rem;
+}
+.card1-inside{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+flex: 1 0 0;
+align-self: stretch;
+}
+
+.card2{
+    border-radius: 0.5rem !important;
+    padding: 1rem 1.5rem;
+
+}
+
+.arrow-div{
+    display: flex;
+padding: 0.25rem;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+border-radius: 2.125rem;
+background: #FFF;
+}

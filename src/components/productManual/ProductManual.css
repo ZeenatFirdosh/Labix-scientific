@@ -1,0 +1,38 @@
+.pm-button{
+    display: flex;
+padding: 0.625rem 1rem;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+
+border-radius: 0.5rem;
+background: #068FFF;
+
+color:  #FFF;
+
+/* text-sm/leading-5/font-medium */
+font-family: Inter;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem; /* 142.857% */
+}
+.pm-button-light{
+    color:  #262626;
+
+    display: flex;
+padding: 10px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+
+border-radius: 8px;
+border: 1px solid  #E5E5E5;
+
+/* text-sm/leading-5/font-medium */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}

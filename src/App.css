@@ -1,0 +1,35 @@
+.headline{
+    color:  #262626;
+/* text-align: center; */
+/* text-3xl/leading-9/font-semibold */
+font-family: Inter;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.25rem; /* 120% */
+}
+
+ /* .headline:after {
+    background: none repeat scroll 0 0 #068FFF;
+    bottom: -10px;
+    content: "";
+    display: block;
+    position: relative;
+    width: 4.22788rem;
+    height: 0.25rem;
+    left: 49%;
+    transform: translateX(-50%);
+ }
+  */
+  .headline::after {
+    bottom: -10px;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    background: #068FFF;
+    transition: width 0.2s ease 0s, left 0.1s ease 0s;
+    width: 4.22788rem;
+    height: 0.25rem;
+    border-radius: 0.625rem;
+  }
